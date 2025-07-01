@@ -32,8 +32,8 @@
   <!-- 3. Residence Inn Tempe Downtown/University – missing all <Phone> (error 3) -->
   <Hotel>
     <Name>Residence Inn Tempe Downtown/University</Name>
+    <Phone>000-000-0000</Phone>
     <Address nearestAirport="Sky Harbor">
-      <Phone>000-000-0000</Phone>
       <Number>510</Number>
       <Street>S Forest Ave</Street>
       <City>Tempe</City>
