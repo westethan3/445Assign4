@@ -66,6 +66,8 @@
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
+    </Address>
+  </Hotel>
     <!-- missing </Address> here! -->
 
   <Hotel rating="4.6">
