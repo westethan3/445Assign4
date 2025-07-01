@@ -5,7 +5,6 @@
   <!-- 1. Tempe Mission Palms Hotel & Conference Center (error 5 two names) -->
   <Hotel rating="4.5">
     <Name>Tempe Mission Palms Hotel &amp; Conference Center</Name>
-    <Name>Tempe Mission Palms Hotel Dupe &amp; Conference Center</Name>
     <Phone>480-894-1400</Phone>
     <Address nearestAirport="Sky Harbor">
       <Number>60</Number>
