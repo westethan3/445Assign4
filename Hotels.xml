@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels>
+  
+  <!-- 1. Tempe Mission Palms Hotel & Conference Center -->
+  <Hotel rating="4.5">
+    <Name>Tempe Mission Palms Hotel &amp; Conference Center</Name>
+    <Phone>480-894-1400</Phone>
+    <Address nearestAirport="Sky Harbor">
+      <Number>60</Number>
+      <Street>E 5th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  
+  <!-- 2. Embassy Suites by Hilton Phoenix Tempe -->
+  <Hotel rating="3.5">
+    <Name>Embassy Suites by Hilton Phoenix Tempe</Name>
+    <Phone>480-897-7444</Phone>
+    <Phone>800-362-2779</Phone>
+    <Address nearestAirport="Sky Harbor">
+      <Number>4400</Number>
+      <Street>S Rural Rd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+    </Address>
+  </Hotel>
+  
+  <!-- 3. Residence Inn Tempe Downtown/University -->
+  <Hotel>
+    <Name>Residence Inn Tempe Downtown/University</Name>
+    <Phone>480-967-2300</Phone>
+    <Address nearestAirport="Sky Harbor">
+      <Number>510</Number>
+      <Street>S Forest Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  
+  <!-- 4. Graduate by Hilton Tempe -->
+  <Hotel rating="4.2">
+    <Name>Graduate by Hilton Tempe</Name>
+    <Phone>480-967-9431</Phone>
+    <Address nearestAirport="Sky Harbor">
+      <Number>225</Number>
+      <Street>E Apache Blvd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  
+  <!-- 5. Hyatt Place Tempe / Phoenix / University -->
+  <Hotel>
+    <Name>Hyatt Place Tempe / Phoenix / University</Name>
+    <Phone>480-207-1578</Phone>
+    <Address nearestAirport="Sky Harbor">
+      <Number>601</Number>
+      <Street>E 6th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  
+  <!-- 6. Hilton Garden Inn Phoenix / Tempe ASU Area -->
+  <Hotel rating="4.6">
+    <Name>Hilton Garden Inn Phoenix / Tempe ASU Area</Name>
+    <Phone>480-968-2180</Phone>
+    <Address nearestAirport="Sky Harbor">
+      <Number>86</Number>
+      <Street>S Rockford Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  
+  <!-- 7. Hampton Inn & Suites Phoenix Tempe -->
+  <Hotel rating="4.5">
+    <Name>Hampton Inn &amp; Suites Phoenix Tempe</Name>
+    <Phone>480-941-3441</Phone>
+    <Address nearestAirport="Sky Harbor">
+      <Number>1415</Number>
+      <Street>N Scottsdale Rd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  
+  <!-- 8. AC Hotel Phoenix Tempe / Downtown -->
+  <Hotel>
+    <Name>AC Hotel Phoenix Tempe / Downtown</Name>
+    <Phone>480-642-6140</Phone>
+    <Phone>877-688-4613</Phone>
+    <Address nearestAirport="Sky Harbor">
+      <Number>100</Number>
+      <Street>E Rio Salado Pkwy</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  
+  <!-- 9. Omni Tempe Hotel at ASU -->
+  <Hotel rating="3.5">
+    <Name>Omni Tempe Hotel at ASU</Name>
+    <Phone>602-794-8600</Phone>
+    <Phone>800-843-6664</Phone>
+    <Address nearestAirport="Sky Harbor">
+      <Number>7</Number>
+      <Street>E University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  
+  <!-- 10. Canopy by Hilton Tempe Downtown -->
+  <Hotel>
+    <Name>Canopy by Hilton Tempe Downtown</Name>
+    <Phone>480-968-6800</Phone>
+    <Address nearestAirport="Sky Harbor">
+      <Number>108</Number>
+      <Street>E University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  
+</Hotels>
