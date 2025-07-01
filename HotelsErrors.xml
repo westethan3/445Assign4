@@ -21,7 +21,7 @@
     <Name>Embassy Suites by Hilton Phoenix Tempe</Name>
     <Phone>480-897-7444</Phone>
     <Phone>800-362-2779</Phone>
-    <Address>   <!-- nearestAirport attribute omitted -->
+    <Address nearestAirport="deez">   <!-- nearestAirport attribute omitted -->
       <Number>4400</Number>
       <Street>S Rural Rd</Street>
       <City>Tempe</City>
@@ -135,6 +135,4 @@
     </Address>
   </Hotel>
       
-</Hotels
-
-</Hotel>  <!-- closing root -->
+</Hotels>
