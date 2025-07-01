@@ -4,7 +4,7 @@
            attributeFormDefault="unqualified">
 
   <!-- Root element -->
-  <xs:element name="Hotels" use="required">
+  <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
         <!-- zero or more Hotel entries -->
