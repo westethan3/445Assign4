@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- HotelsErrors.xml: copy of Hotels.xml with five injected errors -->
-<Hotel>  <!-- (1) root element should be <Hotels> -->
+<Hotels>  <!-- (1) root element should be <Hotels> -->
 
   <!-- 1. Tempe Mission Palms Hotel & Conference Center (error 5 two names) -->
   <Hotel rating="4.5">
@@ -134,5 +134,7 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
+      
+</Hotels
 
 </Hotel>  <!-- closing root -->
