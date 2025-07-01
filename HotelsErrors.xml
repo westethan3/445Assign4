@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<Hotels> 
+<!-- HotelsErrors.xml: copy of Hotels.xml with five injected errors -->
+<Hotels>  <!-- (1) root element should be <Hotels> -->
 
   <!-- 1. Tempe Mission Palms Hotel & Conference Center (error 5 two names) -->
   <Hotel rating="4.5">
     <Name>Tempe Mission Palms Hotel &amp; Conference Center</Name>
+    <Name>Tempe Mission Palms Hotel Dupe &amp; Conference Center</Name>
     <Phone>480-894-1400</Phone>
     <Address nearestAirport="Sky Harbor">
       <Number>60</Number>
@@ -15,12 +16,12 @@
     </Address>
   </Hotel>
 
-  
+  <!-- 2. Embassy Suites by Hilton Phoenix Tempe – missing required attribute (error 2) -->
   <Hotel rating="3.5">
     <Name>Embassy Suites by Hilton Phoenix Tempe</Name>
     <Phone>480-897-7444</Phone>
     <Phone>800-362-2779</Phone>
-    <Address nearestAirport="deez">
+    <Address>   <!-- nearestAirport attribute omitted -->
       <Number>4400</Number>
       <Street>S Rural Rd</Street>
       <City>Tempe</City>
@@ -32,7 +33,7 @@
   <!-- 3. Residence Inn Tempe Downtown/University – missing all <Phone> (error 3) -->
   <Hotel>
     <Name>Residence Inn Tempe Downtown/University</Name>
-    <Phone>000-000-0000</Phone>
+    <!-- Phone element entirely missing -->
     <Address nearestAirport="Sky Harbor">
       <Number>510</Number>
       <Street>S Forest Ave</Street>
@@ -65,10 +66,9 @@
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-    </Address>
-  </Hotel>
     <!-- missing </Address> here! -->
 
+  <!-- 6. Hilton Garden Inn Phoenix / Tempe ASU Area (unchanged) -->
   <Hotel rating="4.6">
     <Name>Hilton Garden Inn Phoenix / Tempe ASU Area</Name>
     <Phone>480-968-2180</Phone>
@@ -80,7 +80,8 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-  
+
+  <!-- 7. Hampton Inn & Suites Phoenix Tempe (unchanged) -->
   <Hotel rating="4.5">
     <Name>Hampton Inn &amp; Suites Phoenix Tempe</Name>
     <Phone>480-941-3441</Phone>
@@ -93,6 +94,7 @@
     </Address>
   </Hotel>
 
+  <!-- 8. AC Hotel Phoenix Tempe / Downtown (unchanged) -->
   <Hotel>
     <Name>AC Hotel Phoenix Tempe / Downtown</Name>
     <Phone>480-642-6140</Phone>
@@ -106,6 +108,7 @@
     </Address>
   </Hotel>
 
+  <!-- 9. Omni Tempe Hotel at ASU (unchanged) -->
   <Hotel rating="3.5">
     <Name>Omni Tempe Hotel at ASU</Name>
     <Phone>602-794-8600</Phone>
@@ -119,6 +122,7 @@
     </Address>
   </Hotel>
 
+  <!-- 10. Canopy by Hilton Tempe Downtown (unchanged) -->
   <Hotel>
     <Name>Canopy by Hilton Tempe Downtown</Name>
     <Phone>480-968-6800</Phone>
@@ -131,4 +135,6 @@
     </Address>
   </Hotel>
       
-</Hotels>
+</Hotels
+
+</Hotel>  <!-- closing root -->
