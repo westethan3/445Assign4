@@ -8,22 +8,22 @@
     <xs:complexType>
       <xs:sequence>
         <!-- zero or more Hotel entries -->
-        <xs:element name="Hotel" maxOccurs="unbounded" use="required">
+        <xs:element name="Hotel" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
               <!-- exactly one Name -->
-              <xs:element name="Name" type="xs:string" use="required"/>
+              <xs:element name="Name" type="xs:string"/>
               <!-- one or more Phone -->
-              <xs:element name="Phone" type="xs:string" maxOccurs="unbounded" use="required"/>
+              <xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
               <!-- exactly one Address, now with nearestAirport attribute -->
-              <xs:element name="Address" use="required">
+              <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="Number" type="xs:integer" use="required"/>
-                    <xs:element name="Street" type="xs:string" use="required"/>
-                    <xs:element name="City"   type="xs:string" use="required"/>
-                    <xs:element name="State"  type="xs:string" use="required"/>
-                    <xs:element name="Zip"    type="xs:string" use="required"/>
+                    <xs:element name="Number" type="xs:integer"/>
+                    <xs:element name="Street" type="xs:string"/>
+                    <xs:element name="City"   type="xs:string"/>
+                    <xs:element name="State"  type="xs:string"/>
+                    <xs:element name="Zip"    type="xs:string"/>
                   </xs:sequence>
                   <xs:attribute name="nearestAirport"
                                 type="xs:string"
