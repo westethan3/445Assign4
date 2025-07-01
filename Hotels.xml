@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels>
-  
+<Hotels
+  xmlns="https://westethan3.github.io/445Assign4"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    https://westethan3.github.io/445Assign4
+    https://westethan3.github.io/445Assign4/Hotels.xsd">
   <!-- 1. Tempe Mission Palms Hotel & Conference Center -->
   <Hotel rating="4.5">
     <Name>Tempe Mission Palms Hotel &amp; Conference Center</Name>
